@@ -24,10 +24,11 @@ while(formulaire.querySelector(patternH)) {
 //search pattern for the user-input
 //Motif de recherche pour le champs d'identification (user)
 patternU = `input[id*=user],input[name*=user],
-         input[id*=login],input[name*=login],
-         input[id*=Login],input[name*=Login],
-         input[id*=mail],input[name*=mail],
-         input[id*=dentifier],input[name*=dentifier]`;
+            input[id*=User],input[name*=User],
+            input[id*=login],input[name*=login],
+            input[id*=Login],input[name*=Login],
+            input[id*=mail],input[name*=mail],
+            input[id*=dentifier],input[name*=dentifier]`;
 
 user_id = formulaire.querySelector(patternU).id;
 
