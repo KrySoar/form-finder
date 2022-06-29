@@ -11,7 +11,7 @@ loginform = document.querySelector('form') ? document.querySelector('form') : do
 form_id = loginform.id;
 
 //almost all the time, the password-input has type=password
-//99% du temps le champs du mot de passe est de type password (permet d'avoir les *****)
+//99% du temps le champs du mot de passe est de type password
 pass_input = loginform.querySelector('input[type=password]')
 pass_id = pass_input ? pass_input.id : "";
 
