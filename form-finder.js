@@ -28,6 +28,7 @@ patternU = `input[id*=user],input[name*=user],
         input[id*=login],input[name*=login],
         input[id*=Login],input[name*=Login],
         input[id*=mail],input[name*=mail],
+        input[id*=account],input[name*=account],
         input[id*=dentifier],input[name*=dentifier]`;
 
 user_input = loginform.querySelector(patternU)
